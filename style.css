@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(164, 249, 164), white);
+}
+input {
+    margin: 0 auto;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 4px 4px green;
+    transition: 0.6s ease;
+}
+input:hover {
+    box-shadow: 0px 4px 4px rgb(45, 189, 45);
+}
+button {
+    margin: 2px;
+    font-size: 18px;
+    padding: 8px;
+    font-weight: 600;
+    transition: 0.9s ease;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, rgb(95, 246, 95), rgb(150, 252, 91));
+}
+button:hover {
+    box-shadow: 0px 4px 20px rgb(91, 251, 91);
+    transform: scale(1.09);
+}
+h1 {
+    font-weight: 900;
+}
+iframe {
+    margin: 3px;
+    transition: 0.6s ease;
+    border-radius: 15px;
+}
+iframe:hover {
+    box-shadow: 0px 4px 3px rgba(0, 128, 0, 0.675);
+    transform: scale(1.008);
+}
+nav ul{
+    font-weight: 700;
+    list-style-type: none;
+    gap: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.Account {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgba(162, 200, 251, 0.651);
+    font-size: 35px;
+    box-shadow: 0px 4px 1px rgb(1, 67, 1);
+    transition: 0.6s ease;
+}
+.Account:hover {
+    transform: scale(1.09);
+    background-color: rgba(95, 160, 245, 0.651);
+}
+@media (max-width: 700px) {
+    .Account {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .clearbtn {
+        display: none;
+    }
+}
